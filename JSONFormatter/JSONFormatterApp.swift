@@ -4,7 +4,7 @@
 //
 // Follow me on Mastodon: https://iosdev.space/@StewartLynch
 // Follow me on Threads: https://www.threads.net/@stewartlynch
-// Follow me on Bluesky: https://bsky.app/profile/stewartlynch.bsky.social
+// Follow me on Bluesky: https://bsky.app/profile/stewartlynch
 // Follow me on X: https://x.com/StewartLynch
 // Follow me on LinkedIn: https://linkedin.com/in/StewartLynch
 // Email: slynch@createchsol.com
@@ -13,14 +13,18 @@
 //----------------------------------------------
 // Copyright © 2026 CreaTECH Solutions (Stewart Lynch). All rights reserved.
 
-
 import SwiftUI
 
 @main
 struct JSONFormatterApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("JSONFormatter") {
             ContentView()
+        }
+        .defaultSize(width: 1100, height: 720)
+        .commands {
+            JSONFormatterCommands()
+            TextEditingCommands()
         }
     }
 }
