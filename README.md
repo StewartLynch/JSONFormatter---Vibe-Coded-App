@@ -1,6 +1,8 @@
 # JSONFormatter
+
 > Note:  This is the app created for the tutorial on [Vibe Coding a macOS App in Xcode 27 | Build a JSON Formatter from Scratch]()
-> 
+
+
 JSONFormatter is a native macOS SwiftUI app for validating, formatting, and exporting JSON.
 
 ## Download Installer
