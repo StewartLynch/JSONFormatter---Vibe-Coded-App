@@ -6,12 +6,7 @@
 	objectVersion = 110;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BB3BB42E301A7B2D000ADF6E /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = BB3BB42D301A7B2D000ADF6E /* AppIcon.icon */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		BB3BB42D301A7B2D000ADF6E /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		BBEE5532301A5E9D0069B9FF /* JSONFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -35,7 +30,6 @@
 		BBEE5529301A5E9D0069B9FF = {
 			isa = PBXGroup;
 			children = (
-				BB3BB42D301A7B2D000ADF6E /* AppIcon.icon */,
 				BBEE5534301A5E9D0069B9FF /* JSONFormatter */,
 				BBEE5533301A5E9D0069B9FF /* Products */,
 			);
@@ -108,7 +102,6 @@
 		BBEE5530301A5E9D0069B9FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				BB3BB42E301A7B2D000ADF6E /* AppIcon.icon in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -249,7 +242,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -293,7 +286,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
