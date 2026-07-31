@@ -1,4 +1,4 @@
-# JSONFormatter
+# JSONFormatter![JSONFormatter](assets/JSONFormatter.png)
 
 > Note:  This is the app created for the tutorial on [Vibe Coding a macOS App in Xcode 27 | Build a JSON Formatter from Scratch]()
 >
